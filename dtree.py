@@ -1,7 +1,7 @@
 import random
 from typing import List, Tuple
-from models import GameState
-from game import Snake
+from .models import GameState
+from .game import Snake
 
 class DecisionTree:
     def __init__(self, width: int, height: int):

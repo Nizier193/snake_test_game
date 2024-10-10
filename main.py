@@ -1,9 +1,8 @@
-import stat
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
-from game import Snake, visualize_game
-from models import CreateGameModel, DirectionSnakeModel
+from .game import Snake, visualize_game
+from .models import CreateGameModel, DirectionSnakeModel
 
 import base64
 from io import BytesIO

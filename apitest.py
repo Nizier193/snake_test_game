@@ -8,11 +8,10 @@ import json
 from io import BytesIO
 from PIL import Image
 
-from game import visualize_game
-from main import move
-from models import GameState
-
-from dtree import DecisionTree
+from .game import visualize_game
+from .main import move
+from .models import GameState
+from .dtree import DecisionTree
 
 baseurl = "http://localhost:8000/"
 

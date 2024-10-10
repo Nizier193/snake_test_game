@@ -1,7 +1,7 @@
 import random
 from typing import List, Dict, Tuple
 from PIL import Image, ImageDraw
-from models import GameState
+from .models import GameState
 
 class Objects:
     apple = 5
